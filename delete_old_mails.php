@@ -1,7 +1,7 @@
 <?php
 $olderthan = 5;
 $del = new DateTime();
-$del->modify('-'.$olderthan.' minutes');
+$del->modify('-'.$olderthan.' days');
 
 echo "Deleting emails older then $olderthan \n";
 
